@@ -9,7 +9,10 @@ hello_world: hello_world.o
 	$(CC) -o $@ $<
 hello_world2: hello_world2.o
 	$(CC) -o $@ $<
-
+hello_world3: hello_world3.o
+	$(CC) -o $@ $<
+bmi: bmi.o
+	$(CC) -o $@ $<
 .PHONY: clean
 
 clean:
