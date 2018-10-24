@@ -1,0 +1,4 @@
+Please enter three numbers.
+Real roots dont exist.
+Complex roots are: 1 + -1 i
+1+1i

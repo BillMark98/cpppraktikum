@@ -1,0 +1,5 @@
+CC = g++
+CFLAGS = -g -Wall -o
+
+integral: integral.cpp
+	$(CC) $(CFLAGS) $@ $<

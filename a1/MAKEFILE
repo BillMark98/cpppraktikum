@@ -1,0 +1,9 @@
+CC = g++
+CFLAGS = -g -Wall -o
+
+myroot: myroot.cpp
+	$(CC) $(CFLAGS) $@ $<
+mypolynom: mypolynom.cpp
+	$(CC) $(CFLAGS) $@ $<
+mycomplex: mycomplex.cpp
+	$(CC) $(CFLAGS) $@ $<
