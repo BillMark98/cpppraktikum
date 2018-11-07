@@ -2,7 +2,10 @@
 #include <cmath>
 #define EPSILON 1e-18
 #define NOZEROPOINT -100000
-using namespace std;
+using std::cout;
+using std::endl;
+using std::cin;
+using std::abs;
 void Wertetabelle(double a, double b, int N);
 double MPRegel(double a, double b, int N);
 bool Einschluss(double fa, double fb);

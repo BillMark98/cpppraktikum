@@ -2,7 +2,9 @@
 #include <cmath>
 #include <string>
 #include <iomanip>
-using namespace std;
+using std::cin;
+using std::endl;
+using std::cout;
 int main()
 {
     

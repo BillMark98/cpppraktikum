@@ -16,4 +16,6 @@ bmi: bmi.o
 .PHONY: clean
 
 clean:
-	$(RM) *.o
+	rm *.o
+clean_exe:
+	ls | grep -v "\."|grep -v "MAKEFILE" | xargs rm

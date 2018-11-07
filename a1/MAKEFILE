@@ -7,3 +7,8 @@ mypolynom: mypolynom.cpp
 	$(CC) $(CFLAGS) $@ $<
 mycomplex: mycomplex.cpp
 	$(CC) $(CFLAGS) $@ $<
+
+clean:
+	rm *.o
+clean_exe:
+	ls | grep -v "\."|grep -v "MAKEFILE" | xargs rm

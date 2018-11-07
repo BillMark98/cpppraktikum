@@ -1,7 +1,16 @@
 #include <iostream>
 #include <cmath>
 #include <iomanip>
-using namespace std;
+using std::cout;
+using std::cin;
+using std::endl;
+using std::setiosflags;
+// using std::ios::showbase;
+using std::sqrt;
+using std::abs;
+using std::showpos;
+using std::ios;
+
 int main()
 {
     double A,B,C;

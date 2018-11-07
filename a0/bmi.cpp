@@ -1,6 +1,9 @@
 #include <iostream>
 #include <cstdlib>
-using namespace std;
+using std::cout;
+using std::string;
+using std::cin;
+using std::endl;
 int main()
 {
     double weight;
