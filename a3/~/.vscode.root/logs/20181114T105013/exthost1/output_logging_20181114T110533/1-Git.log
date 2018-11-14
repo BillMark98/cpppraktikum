@@ -1,0 +1,48 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /home/bill/Desktop/cpppraktikum
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :a3/~/myalloc.c
+> git ls-files --stage -- a3/~/
+> git show :a3/~/myalloc.c
+> git ls-files --stage -- a3/~/
+> git show :a3/~/myalloc.c
+> git ls-files --stage -- a3/~/
+> git show :a3/~/myalloc.c
+> git ls-files --stage -- a3/~/
+> git show :a3/~/myalloc.c
+> git ls-files --stage -- a3/~/
+> git show :a3/~/myalloc.c
+> git ls-files --stage -- a3/~/
+> git check-ignore -z --stdin
+> git show :a3/~/Makefile
+> git ls-files --stage -- a3/~/
+> git check-ignore -z --stdin
+> git show :a3/~/myalloc.c
+> git ls-files --stage -- a3/~/
+> git show :a3/~/myalloc.c
+> git ls-files --stage -- a3/~/
+> git show :a3/~/myalloc.c
+> git ls-files --stage -- a3/~/
+> git show :a3/~/myalloc.c
+> git ls-files --stage -- a3/~/
+> git show :a3/~/myalloc.c
+> git ls-files --stage -- a3/~/
+> git show :a3/~/.vscode/launch.json
+> git ls-files --stage -- a3/~/.vscode/
+> git check-ignore -z --stdin
+> git show :a3/~/Makefile
+> git ls-files --stage -- a3/~/
+> git check-ignore -z --stdin
+> git show :a3/~/myalloc.c
+> git ls-files --stage -- a3/~/
+> git show :a3/~/.vscode/launch.json
+> git ls-files --stage -- a3/~/.vscode/

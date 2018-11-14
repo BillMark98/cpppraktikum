@@ -1,0 +1,56 @@
+[2018-11-14 10:50:17.230] [sharedprocess] [info] main {"machineId":"e4b582c98049bfebd3d9803abd85408c286695be44bbe1cfec31e48352f18fb1"}
+[2018-11-14 10:50:17.296] [sharedprocess] [info] Scanned user extensions: 1
+[2018-11-14 10:50:17.478] [sharedprocess] [info] Scanned user extensions: 1
+[2018-11-14 10:50:17.488] [sharedprocess] [info] Scanned user extensions: 1
+[2018-11-14 10:50:17.571] [sharedprocess] [info] Scanned system extensions: 71
+[2018-11-14 10:50:17.581] [sharedprocess] [info] Scanned user extensions: 1
+[2018-11-14 10:50:17.655] [sharedprocess] [info] Scanned system extensions: 71
+[2018-11-14 10:50:17.658] [sharedprocess] [info] Scanned system extensions: 71
+[2018-11-14 10:50:40.730] [sharedprocess] [info] Scanned user extensions: 1
+[2018-11-14 10:50:40.747] [sharedprocess] [info] Scanned user extensions: 1
+[2018-11-14 10:50:40.991] [sharedprocess] [info] Scanned system extensions: 71
+[2018-11-14 10:50:41.000] [sharedprocess] [info] Scanned system extensions: 71
+[2018-11-14 10:50:41.551] [sharedprocess] [info] Scanned user extensions: 1
+[2018-11-14 10:50:54.399] [sharedprocess] [info] Scanned user extensions: 1
+[2018-11-14 10:50:54.508] [sharedprocess] [info] Scanned system extensions: 71
+[2018-11-14 10:50:57.242] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-11-14 10:53:55.709] [sharedprocess] [info] Scanned user extensions: 1
+[2018-11-14 10:55:42.627] [sharedprocess] [info] Scanned user extensions: 1
+[2018-11-14 10:57:15.405] [sharedprocess] [info] Scanned user extensions: 1
+[2018-11-14 10:57:15.457] [sharedprocess] [info] Scanned user extensions: 1
+[2018-11-14 10:57:15.468] [sharedprocess] [info] Scanned user extensions: 1
+[2018-11-14 10:57:15.475] [sharedprocess] [info] Scanned user extensions: 1
+[2018-11-14 10:57:15.556] [sharedprocess] [info] Scanned system extensions: 71
+[2018-11-14 10:57:15.559] [sharedprocess] [info] Scanned system extensions: 71
+[2018-11-14 10:57:15.565] [sharedprocess] [info] Scanned system extensions: 71
+[2018-11-14 11:00:42.653] [sharedprocess] [info] Scanned user extensions: 1
+[2018-11-14 11:01:12.749] [sharedprocess] [info] Installing extension: vscode-emacs
+[2018-11-14 11:01:12.754] [sharedprocess] [info] Scanned user extensions: 1
+[2018-11-14 11:01:13.579] [sharedprocess] [info] Downloaded extension: vscode-emacs /tmp/3810ab65-df96-44ab-91ed-8f375a44d1d6
+[2018-11-14 11:01:13.624] [sharedprocess] [info] Extracted extension to /home/bill/.vscode/extensions/.hiro-sun.vscode-emacs-0.1.1: hiro-sun.vscode-emacs-0.1.1
+[2018-11-14 11:01:13.624] [sharedprocess] [info] Renamed to /home/bill/.vscode/extensions/hiro-sun.vscode-emacs-0.1.1
+[2018-11-14 11:01:13.624] [sharedprocess] [info] Installation completed. hiro-sun.vscode-emacs-0.1.1
+[2018-11-14 11:01:13.752] [sharedprocess] [info] Extensions installed successfully: hiro-sun.vscode-emacs
+[2018-11-14 11:01:13.908] [sharedprocess] [info] Scanned user extensions: 2
+[2018-11-14 11:01:13.991] [sharedprocess] [info] Scanned system extensions: 71
+[2018-11-14 11:05:32.246] [sharedprocess] [info] Scanned user extensions: 2
+[2018-11-14 11:05:32.258] [sharedprocess] [info] Scanned user extensions: 2
+[2018-11-14 11:05:32.260] [sharedprocess] [info] Scanned user extensions: 2
+[2018-11-14 11:05:32.283] [sharedprocess] [info] Scanned user extensions: 2
+[2018-11-14 11:05:32.285] [sharedprocess] [info] Scanned user extensions: 2
+[2018-11-14 11:05:32.663] [sharedprocess] [info] Scanned user extensions: 2
+[2018-11-14 11:05:32.791] [sharedprocess] [info] Scanned system extensions: 71
+[2018-11-14 11:05:32.804] [sharedprocess] [info] Scanned system extensions: 71
+[2018-11-14 11:05:32.809] [sharedprocess] [info] Scanned system extensions: 71
+[2018-11-14 11:05:32.814] [sharedprocess] [info] Scanned system extensions: 71
+[2018-11-14 11:05:32.842] [sharedprocess] [info] Scanned system extensions: 71
+[2018-11-14 11:05:33.270] [sharedprocess] [info] Scanned user extensions: 2
+[2018-11-14 11:10:33.300] [sharedprocess] [info] Scanned user extensions: 2
+[2018-11-14 11:15:33.328] [sharedprocess] [info] Scanned user extensions: 2
+[2018-11-14 11:15:37.375] [sharedprocess] [info] Scanned user extensions: 2
+[2018-11-14 11:20:33.403] [sharedprocess] [info] Scanned user extensions: 2
+[2018-11-14 11:25:33.430] [sharedprocess] [info] Scanned user extensions: 2
+[2018-11-14 11:30:33.456] [sharedprocess] [info] Scanned user extensions: 2
+[2018-11-14 11:35:33.487] [sharedprocess] [info] Scanned user extensions: 2
+[2018-11-14 11:40:33.522] [sharedprocess] [info] Scanned user extensions: 2
+[2018-11-14 11:45:33.552] [sharedprocess] [info] Scanned user extensions: 2
