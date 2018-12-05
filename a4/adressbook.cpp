@@ -201,7 +201,7 @@ int main()
     }
     myout << geblist;
     myout << "\n\n\n************  Now sorting *********** \n\n\n";
-    geblist.sort(compare_datum);
+    geblist.sort();
     myout << geblist;
 
     datei.close();
@@ -279,17 +279,33 @@ bool operator< (const Datum & dat1, const Datum & dat2)
     {
         return true;
     }
+    // incase dat1.Jahr < dat2.Jahr we shouldn't test next the month
+    // but still the year. 
+    // for example 1995/11/2  1922/12/1 so at first 1995 > 1922 so
+    // we test the month and 11 < 12 so we give back true
+    // but actually we should get > since 1995 > 1922
+    else if(dat1.Jahr > dat2.Jahr)
+    {
+        return false;
+    }
     else if(dat1.Monat < dat2.Monat)
     {
         return true;
+    }
+    else if(dat1.Monat > dat2.Monat)
+    {
+        return false;
     }
     else if(dat1.Tag < dat2.Tag)
     {
         return true;
     }
-    return false;
+    else if(dat1.Tag > dat2.Tag)
+    {
+        return false;
+    }
+    return true;
 }
-
 void Geb_output(ostream & out, const GebListeT& geb)
 {
     for(const_Diter iter = geb.begin(); iter != geb.end(); iter++)
@@ -304,13 +320,25 @@ bool compare_datum(const Datum & dat1, const Datum & dat2)
     {
         return true;
     }
+    else if(dat1.Jahr > dat2.Jahr)
+    {
+        return false;
+    }
     else if(dat1.Monat < dat2.Monat)
     {
         return true;
+    }
+    else if(dat1.Monat > dat2.Monat)
+    {
+        return false;
     }
     else if(dat1.Tag < dat2.Tag)
     {
         return true;
     }
-    return false;
+    else if(dat1.Tag > dat2.Tag)
+    {
+        return false;
+    }
+    return true;
 }
