@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS=-g -Wall -o
+CFLAGS= -std=c++11 -g -Wall -o 
 
 myalloc: myalloc.c
 	$(CC) $(CFLAGS) $@ $^

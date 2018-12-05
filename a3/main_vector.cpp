@@ -7,8 +7,9 @@ using std::vector;
 typedef vector<double> dVector;
 typedef const vector<double> const_dVector;
 typedef vector<double>::iterator dViter;
-typedef const vector<double>::iterator const_dViter;
+typedef vector<double>::const_iterator const_dViter;
 void Ausgabe(dVector & arr);
+void Ausgabe(const_dViter & ibegin, const_dViter & iend);
 double Durchschnitt(const_dVector &);
 int min_pos(const dVector &);
 void sortiere(double * feld, int n);
@@ -21,13 +22,14 @@ double * merge_sort(double * feld, int n);
 int main()
 {
 
-    dVector arr; //{47,11,0,8,5};
-    arr[0] = 47; 
-    arr[1] = 11;
-    arr[2] = 0;
-    arr[3] = 8;
-    arr[4] = 5;
+    dVector arr {47,11,0,8,5};
+    // arr[0] = 47; 
+    // arr[1] = 11;
+    // arr[2] = 0;
+    // arr[3] = 8;
+    // arr[4] = 5;
     Ausgabe(arr);
+    Ausgabe(arr.cbegin(), arr.cend());
     // cout << "Mean: " << Durchschnitt(arr) << endl;
     // cout << "Min pos: " << min_pos(arr) << endl;
     // cout << "Now sorting\n";
@@ -68,7 +70,14 @@ void Ausgabe(dVector & arr)
     }
     cout << endl;
 }
-
+void Ausgabe(const_dViter & ibegin, const_dViter & iend)
+{
+    for(const_dViter it = ibegin; it != iend; it++)
+    {
+        cout << *it << ' ';
+    }
+    cout << endl;
+}
 int min_pos(const dVector &);
 double Durchschnitt(dVector &arr)
 {
