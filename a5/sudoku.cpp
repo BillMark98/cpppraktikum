@@ -71,6 +71,11 @@ int main()
     {
         cout << "Please enter row : ";
         cin >> row;
+        if(!cin)
+        {
+            cout << "program end due to invalid input.\n";
+            break;
+        }
         if(row < 1 || row > 9)
         {
             cout << "Invalid row.\n";
@@ -78,6 +83,11 @@ int main()
         }
         cout << "Please enter col: ";
         cin >> column;
+        if(!cin)
+        {
+            cout << "program end due to invalid input.\n";
+            break;
+        }
         if(column < 1 || column > 9)
         {
             cout << "Invalid column.\n";
@@ -85,6 +95,11 @@ int main()
         }
         cout << "Please enter the number: ";
         cin >> number;
+        if(!cin)
+        {
+            cout << "program end due to invalid input.\n";
+            break;
+        }
         if( number < 0 || number > 9)
         {
             cout << "Invalid number \n";
@@ -151,7 +166,7 @@ bool Sudoku::validRow(int r) const
         {
             if(arr[temp] != 0)
             {
-                // first reach this number
+                // reaching this number for the first time
                 arr[temp] = 0;
             }
             else
@@ -298,12 +313,35 @@ bool Sudoku::solved() const
         
 ostream& operator<< (ostream& out, const Sudoku& S)
 {
+    out.width(4);
+    out << ' ';
+    for(int index = 1; index < 10; index ++)
+    {
+        out.width(4);
+        out << index;
+        if( index != 1 && index % 3 == 0)
+            {
+                out << " | ";
+            }
+    }
+    out << endl;
+    out << " ----------------------------------------------------\n";
     for(int row = 1; row < 10; row++)
     {
+        if(row != 1 && row % 3 == 1)
+        {
+            out << " -----------------------------------------------------\n";
+        }
+        out.width(3);
+        out << row << '|';
         for(int column = 1; column < 10; column++)
         {
             out.width(4);
             out << S(row,column);
+            if( column != 1 && column % 3 == 0)
+            {
+                out << " | ";
+            }
         }
         out << endl;
     }
