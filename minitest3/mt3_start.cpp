@@ -209,7 +209,7 @@ int main()
     cin >> p;
 
     cout << "Q^p =\n" << pow( Q, p) << endl;
-
+    inFile.close();
+    
     return 0;
 }
-    
